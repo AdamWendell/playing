@@ -1,0 +1,27 @@
+body {
+  font-family: 'Source Sans Pro', 'Trebuchet MS', 'Lucida Grande', 'Bitstream Vera Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  color: #293c4b;
+}
+
+img {
+  margin: 20px 0;
+  max-width: 200px;
+}
+
+#hero video {
+    -webkit-filter: brightness(50%);
+    background: #6A6B67;
+    background: #7D7E7A;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(51,51,51,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 0%,rgba(51,51,51,1) 100%);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%,rgba(51,51,51,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#333333',GradientType=1 );
+    filter: brightness(50%);
+    height: 95vh;
+    object-fit: cover;
+    width: 100vw;
+}
